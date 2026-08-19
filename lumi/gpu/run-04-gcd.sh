@@ -8,7 +8,7 @@
 #SBATCH --ntasks-per-node=8
 
 module use /appl/local/csc/modulefiles
-module load gromacs/2026.0-gpu
+module load gromacs/2026.1-gpu
 
 export OMP_NUM_THREADS=4
 export MPICH_GPU_SUPPORT_ENABLED=1
